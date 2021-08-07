@@ -1,0 +1,41 @@
+/* PROPIEDADES GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+	font-family: 'Work Sans', sans-serif; 
+}
+
+body {
+	font-family: 'Work Sans', sans-serif; 
+	background-color: $bg-color-body;
+	color: $text-color;
+}
+
+ul {
+	list-style-type: none;
+	list-style-position: outside;
+	line-height: 2;
+}
+
+.text-body {
+    color: $text-color !important;
+}
+
+.text-position {
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+@media (max-width: 576px) {
+	h4 {
+		font-size: calc(1.10rem + .3vw)
+	}
+	h5 {
+		font-size: calc(1rem + .3vw)
+	}
+}
+
